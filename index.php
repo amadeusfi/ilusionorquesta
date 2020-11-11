@@ -1,0 +1,10 @@
+<?php
+require_once("config/db.php");
+include("views/header.php");
+include("views/home.php");
+include("views/video.php");
+include("views/band.php");
+include("views/foto.php");
+include("views/contact.php");
+include("views/footer.php");
+?>

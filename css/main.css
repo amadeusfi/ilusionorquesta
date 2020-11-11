@@ -1,0 +1,407 @@
+body {
+  margin: 0!important;
+  background-color: black!important;
+  color: whitesmoke;
+}
+.container-fluid {
+  padding: 0!important;
+}
+header {
+  width: 100%;
+  height: auto;
+  min-height: 8vh;
+  margin: 0;
+  font-family: "Bilbo Swash Caps", cursive;
+  font-size: 4rem;
+  color: whitesmoke;
+  font-weight: 800;
+  display: block;
+}
+.nav {
+  background-color: black;
+  font-family: "Bilbo Swash Caps", cursive;
+  text-shadow: grey 2px;
+  list-style: none;
+  font-size: 4rem;
+}
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  transition: all 0.3s linear;
+}
+.container-home {
+  width: 100%;
+  height: auto;
+  min-height: 60vh;
+  background-image: url("../img/bglailusion.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.section-title {
+  padding: 3rem 0 3rem 0;
+}
+.section-title h1 {
+  font-family: "Bilbo Swash Caps", cursive;
+  font-size: 4rem;
+  color: whitesmoke;
+  font-weight: 900;
+  font-style: bold;
+}
+.container-video {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color:black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center; 
+  position: relative;
+  padding-bottom: 30px;
+}
+.lightgallery{
+  height: auto;
+  width: 90%;
+  margin: 30px auto 30px auto;
+  display: block;
+  border-radius: 15px;
+}
+.container-video img {
+  width: 15rem;
+  height: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 1rem;
+  transition: all 0.8s;
+  border-radius: 0.5rem;
+  opacity: 0.7;
+}
+.container-video img:hover {
+  transform: scale(1, 1.05);
+}
+.container-band {
+  height: auto;
+  width: 100%;
+  background-image: url("../img/bgband.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.names {
+  text-align: center;
+  padding: 120px 0px;
+}
+.names dl {  
+  font-size: 1.9rem;
+  font-family: "Bilbo Swash Caps", cursive;
+  text-shadow: grey 2px;
+  color: rgba(255, 255, 255, 0.79);
+}
+
+.names dd {  
+  font-size: 1.6rem;
+  font-family: "Bilbo Swash Caps", cursive;
+  text-shadow: grey 2px;
+  color: rgba(255, 255, 255, 0.79);
+}
+.text-band {
+  font-size: 2.6rem;
+  font-family: "Bilbo Swash Caps", cursive;
+  text-shadow: grey 2px;
+  color: rgba(255, 255, 255, 0.79);
+  padding-right: 80px!important;
+}
+.container-foto {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  position: relative; 
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#lightgallery{
+  height: auto;
+  width: 90%;
+  margin: auto;
+  display: block;
+  border-radius: 15px;
+}
+.container-foto img {
+  width: 15rem;
+  height: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 1rem;
+  transition: all 0.8s;
+  border-radius: 0.5rem;
+  opacity: 0.7;
+}
+.container-foto img:hover {
+  transform: scale(1, 1.05);
+}
+.container-contact {
+  height: auto;
+  width: 100%;
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.text-contact {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: "Bilbo Swash Caps", cursive;
+  text-shadow: grey 2px;
+  color: rgba(255, 255, 255, 0.79);
+}
+footer {
+  width: 100%;
+  height: auto;
+  font-size: 15px;
+  display: inline-block;
+  background-color: black;
+  padding-bottom: 30px;
+}
+footer img {
+  width: 3rem;
+  height: 3rem;
+}
+.copy {
+  font-size: .5rem;
+}
+/*################################################################*/
+@media screen and (max-width: 900px) {
+  body {
+    background-color: black!important;
+    color: whitesmoke;
+  }
+  .col-9 {
+    max-width: 75%!important;
+    width: 75%!important;
+  }
+  .col-3 {
+    max-width: 25%!important;
+    width: 25%!important;
+  }
+  header {
+  min-height: 10vh;
+  }
+  .nav {
+    font-weight: 600;   
+    font-size: 2.5rem;
+  }
+  .container-home {
+    min-height: 44vh;
+    background-image: url("../img/bglailusion.jpg");
+  }
+  .section-title {
+    padding: .3rem 0 .3rem 0;
+  }
+  .section-title h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+  }
+  .container-video {
+    padding-bottom: 3px;
+    padding-top: 30px;
+  }
+  .lightgallery{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  .container-video img {
+    width: 10,5rem;
+    height: 7,7rem;
+    margin: .5rem;
+    border-radius: 0.2rem;
+    opacity: 0.9;
+  }
+  .container-band {
+    background-image: url("../img/bgband.jpg");
+  }
+  .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 42px;
+  
+  }
+  .names {
+    text-align: center;
+    padding: 0px 0px 0px 35px;
+  }
+  .names dl {  
+    font-size: 1.15rem;
+  }
+  .names dd {  
+    font-size: 1rem;
+  }
+  .text-band {
+    text-align: center;
+    font-size: 1.38rem;
+    padding-left: 30px;
+  }
+  #lightgallery{
+    height: auto;
+    width: 100%;
+    margin: auto;
+    display: block;
+    border-radius: 2px;
+  }
+  .container-foto img {
+    width: 10,5rem;
+    height: 7,7rem;
+    margin: .5rem;
+    border-radius: 0.2rem;
+    opacity: 0.7;
+  }
+ .text-contact {
+  font-size: 2.1rem;
+  font-weight: 400;
+  color: whitesmoke;
+}
+  .container-foto {
+   padding-top: 2px;  
+  padding-bottom: 30px;
+  margin-top: 10px;
+  }
+  footer {
+    font-size: 5px;
+    padding-bottom: 30px;
+  }
+  footer img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .copy {
+    font-size: .5rem;
+  }
+}
+/*##############################End max-widht 900###################*/
+@media screen and (max-width: 600px) {
+  .col-9 {
+    max-width: 75%!important;
+    width: 75%!important;
+  }
+  .col-3 {
+    max-width: 25%!important;
+    width: 25%!important;
+  }
+  header {
+    min-height: 9vh;
+   }
+  .nav {
+    font-size: 2rem;
+  }
+  .container-home {
+    min-height: 44vh;
+    background-image: url("../img/bglailusion.jpg");
+  }
+  .section-title {
+    padding: .5rem 0 .5rem 0;
+  }
+  .section-title h1 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .container-video {
+    padding-top: 1px;
+    padding-bottom: 10px;
+  }
+  .lightgallery{
+    height: auto;
+    width: 100%;
+    border-radius: 5px;
+  }
+  .container-video img {
+    width: 7.5rem;
+    height: 5rem;
+    padding: .5rem;
+    border-radius: 0.2rem;
+    opacity: 0.8;
+    margin-bottom: -10px;
+  }
+    .container-band {
+    background-image: url("../img/bgband.jpg");
+  }
+  .row {
+    text-align: center;
+    margin: 0;
+    padding-top:50px;
+  }
+  .names dl {  
+    font-size: 1rem;
+    font-family: "Bilbo Swash Caps", cursive;
+    text-shadow: grey 2px;
+    color: rgba(255, 255, 255, 0.79);
+  }
+  .names {
+    text-align: center;
+    padding: 10px 0px;
+    padding-top: 19px;
+  }
+  .names dd {  
+    font-size: .9rem;
+    font-family: "Bilbo Swash Caps", cursive;
+    text-shadow: grey 2px;
+    color: rgba(255, 255, 255, 0.79);
+  }
+  .text-band {
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Bilbo Swash Caps", cursive;
+    text-shadow: grey 2px;
+    color: rgba(255, 255, 255, 0.79);
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+    }
+  .container-foto {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  #lightgallery{
+    height: auto;
+    width: 100%;
+  }
+  .container-foto img {
+    width: 7.5rem;
+    height: 5rem;
+    margin: .5rem;
+    border-radius: 0.2rem;
+  }
+  .text-contact {
+  font-size: 1.4rem;
+  font-weight: 400;
+  }
+  footer {
+    font-size: 5px;
+    padding-bottom: 30px;
+  }
+  footer img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .copy {
+    font-size: .5rem;
+  }
+}
